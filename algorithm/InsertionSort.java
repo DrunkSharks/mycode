@@ -1,4 +1,3 @@
-package com.drunk.seckill;
 
 /**
  * 插入排序
