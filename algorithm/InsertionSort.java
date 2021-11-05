@@ -27,7 +27,7 @@ public class InsertionSort {
         int[] arr = new int[(int) ((maxSize+1)*Math.random())];
         //生成随机数组
         for(int i = 0;i<arr.length;i++){
-            arr[i] = (int) ((maxSize+1)*Math.random())-(int)((maxSize+1)*Math.random());
+            arr[i] = (int) ((maxValue+1)*Math.random())-(int)((maxValue+1)*Math.random());
         }
         return arr;
     }
